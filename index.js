@@ -418,7 +418,7 @@ function publishSensorChanges(sensor) {
 	
 	if (changes) {
 		const payload = sensorStates[sensor.id];
-		const topic = config.name + '/status/sensor/' + (config.disableNames ? sensor.id : sensor.name);
+		const topic = config.name + '/status/sensors/' + (config.disableNames ? sensor.id : sensor.name);
 		mqttPublish(topic, payload, {retain: config.mqttRetain});
 	}
 }
