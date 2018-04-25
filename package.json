@@ -28,9 +28,10 @@
   },
   "homepage": "https://github.com/hobbyquaker/hue2mqtt.js",
   "dependencies": {
+    "deep-equal": "^1.0.1",
+    "extend": "^3.0.1",
     "mqtt": "^2.16.0",
     "node-hue-api": "^2.4.2",
-    "obj-ease": "^1.0.1",
     "persist-json": "^1.0.1",
     "yalm": "^4.1.0",
     "yargs": "^11.0.0"
